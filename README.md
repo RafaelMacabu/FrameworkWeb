@@ -18,7 +18,7 @@ Obviamente,um conhecimento prévio da linguagem de programação *Java* e das fe
 
 * Selecionar seu navegador para os testes
   
-  O arquivo *testng.xml*,encontrado na pasta, base será o qual usaremos para rodar todos os nossos testes,então para decidirmos qual o navegador a ser utilizado iremos para a classe *Hooks* na pasta *stepdef*, nessa classe,no método *before* está sendo chamado outro método chamado *setup*, esse método aceita duas variáveis "FIREFOX" ou "CHROME",troque a variável conforme o navegador desejado,por padrão esse projeto usa o firefox.
+  O arquivo *testng.xml*,encontrado na pasta, base será o qual usaremos para rodar todos os nossos testes,então para decidirmos qual o navegador a ser utilizado iremos para a classe *Hooks* na pasta *stepdef*, nessa classe,no método *before* está sendo chamado outro método chamado *setup*, esse método aceita duas variáveis "FIREFOX" ou "CHROME",troque a variável conforme o navegador desejado,por padrão esse projeto usa o google chrome.
 
 * Configurar a URL do site a ser testado
 
