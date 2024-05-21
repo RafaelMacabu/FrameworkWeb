@@ -11,7 +11,7 @@ import static br.com.exemplo.base.BaseTest.teardown;
 public class Hooks {
     @Before
     public static void before(Scenario scenario){
-        setup("FIREFOX");
+        setup("CHROME");
         ScenarioRepository.add(scenario);
     }
 

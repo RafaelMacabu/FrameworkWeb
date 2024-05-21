@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Testes do TESTNG" verbose="1" >
-    <test name="Firefox" verbose = "1">
-        <parameter name="browser" value="FIREFOX"/>
+    <test name="Chrome" verbose = "1">
+        <parameter name="browser" value="CHROME"/>
         <classes>
             <class name="br.com.exemplo.runners.TestNGRunner"/>
         </classes>
